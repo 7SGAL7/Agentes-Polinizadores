@@ -5,30 +5,44 @@
 }
 
 .menu{
+    display: flex;
+    justify-content: space-between;
     background-color: yellow;
-    padding: 10px;
-    margin: 0 10%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 0 0 30% 30%;
+    z-index: 10;
 }
 
-.Titulo{
-    display: inline-block; 
-    width: 50%; 
-    background-color: green;
+.enlace{
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
 }
+
 .menu-lista{
-    background-color: red;
-    display: inline-block;
-    width: 30%;
     margin-right: 0;
     padding: 10px;
 }
 
-.menu-lista li{
+.menu-lista .menu-item{
     display: inline;
+    padding: 10px;
     font-size: 17px;
     font-weight: 600;
 }
-li>a{
+.menu-item a{
     text-decoration: none;
     color: black;
+}
+
+.diseno{
+    width: 100%;
+    height: 600px;
+    background-image:url(img/menu.jpg);
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
 }
