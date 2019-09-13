@@ -1,0 +1,75 @@
+:root{
+    --color1: rgba(161,0,112);
+    --color2: rgba(88, 214, 141,.6);
+    --color3: rgba(250, 169, 6);
+    --color4: rgba(112,60,0);}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+header{
+    position: relative;
+    height: 400px;
+    background: fixed url("../img/fondo-naranja.jpg");
+    background-size: cover; 
+}
+
+.circulo{
+    position: absolute;
+    bottom: 0;
+    width: 500px;
+    height: 300px;
+    border-radius: 0 100% 0 0;
+    background-color: rgba(252, 185, 52, .5);
+    box-shadow: 3px 0 2px rgba(0,0,0,0.75);
+    z-index:1;
+}
+.titulo-principal{
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.75);
+    font-size: 40px;
+    z-index: 10;
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(252, 185, 52, .5);
+    box-shadow: -1px 15px 22px -2px rgba(0,0,0,0.75);
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 0 0 30% 30%;
+    z-index: 10;
+}
+
+.enlace{
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+    padding-left: 70px;
+}
+
+.menu-lista{
+    margin-right: 0;
+    padding: 10px;
+}
+
+.menu-lista .menu-item{
+    display: inline;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.menu-item a{
+    text-decoration: none;
+    color: black;
+}
