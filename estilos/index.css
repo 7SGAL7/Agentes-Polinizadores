@@ -278,3 +278,25 @@ article:hover .dato-text{
     z-index: 5;
     box-shadow: -2px 4px 10px 5px rgb(0, 0, 0);
 }
+
+
+footer{
+    height: 70px;;
+    background: var(--color3);
+    position: relative;
+}
+
+.informacion ul{
+    position: absolute;
+    right: 20px;
+}
+
+.informacion li{
+    display: inline-block;
+    padding: 25px;
+}
+
+.informacion a{
+    text-decoration: none;
+    color: black;
+}
