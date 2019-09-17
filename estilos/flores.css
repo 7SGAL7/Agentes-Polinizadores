@@ -188,3 +188,32 @@ footer{
     text-decoration: none;
     color: black;
 }
+
+.icono{
+    display: none;
+}
+@media screen and (max-width: 1040px){
+    .caja{
+        display: block;
+        width: 90%;
+        margin: 20px;
+    }
+    
+    .animals p{
+        opacity: 1;
+    }
+
+    .menu-lista{
+        display: none;
+    }
+
+    .icono{
+        display: block;
+        position: fixed;   
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 50%;
+        background: var(--color3);
+        z-index: 99;     
+    }
+}
