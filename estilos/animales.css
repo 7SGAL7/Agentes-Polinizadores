@@ -86,7 +86,7 @@ header{
     padding: 15px;
     background-color: rgba(252, 185, 52, .5);
     overflow: hidden;
-    z-index: 10;
+    z-index: 5;
 }
 .caja-img{
     display: inline-block;
