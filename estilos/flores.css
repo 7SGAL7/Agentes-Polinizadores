@@ -42,7 +42,7 @@ header{
     padding: 20px;
     margin: 0 auto;
     border-radius: 0 0 30% 30%;
-    z-index: 10;
+    z-index: inherit;
 }
 
 .enlace{
@@ -203,9 +203,6 @@ footer{
         opacity: 1;
     }
 
-    .menu-lista{
-        display: none;
-    }
 
     .icono{
         display: block;
@@ -213,7 +210,28 @@ footer{
         font-size: 20px;
         padding: 10px;
         border-radius: 50%;
-        background: var(--color3);
+        background:  rgba(250, 169, 6,.8);
         z-index: 99;     
+    }
+
+    .enlaces{
+        position: fixed;
+        background: var(--color2);
+        z-index: 99;
+        transition: 1s;
+        width:0;
+        overflow: hidden;
+    }
+
+    .menu-item>a{
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        padding: 20px;
+        border: solid var(--color4) 1px;
+        background: var(--color2);
+    }
+    footer{
+        height: 140px;
     }
 }
