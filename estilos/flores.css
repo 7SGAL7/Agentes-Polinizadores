@@ -83,7 +83,7 @@ header{
     overflow: hidden;
     vertical-align: top;
     margin: 20px 1.4%;
-    background: var(--color2);
+    background: rgba(88, 214, 141,.6);
     box-shadow: inset 10px 10px 46px rgba(0,0,0,0.75);
 }
 
@@ -170,7 +170,7 @@ header{
 footer{
     position: relative;
     height: 70px;;
-    background: var(--color3);
+    background: rgba(250, 169, 6);
     z-index: 5;
 }
 
@@ -216,7 +216,7 @@ footer{
 
     .enlaces{
         position: fixed;
-        background: var(--color2);
+        background: rgba(88, 214, 141,.6);
         z-index: 99;
         transition: 1s;
         width:0;
@@ -228,8 +228,8 @@ footer{
         text-align: center;
         margin-top: 20px;
         padding: 20px;
-        border: solid var(--color4) 1px;
-        background: var(--color2);
+        border: solid rgba(112,60,0) 1px;
+        background: rgba(88, 214, 141,.6);
     }
     footer{
         height: 140px;
