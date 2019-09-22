@@ -143,7 +143,7 @@ header{
 footer{
     position: relative;
     height: 70px;;
-    background: rgba(250, 169, 6);
+    background:#FDB72B;
     z-index: 5;
 }
 
