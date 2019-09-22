@@ -32,19 +32,6 @@ function apertura(){
 }
 
 
-window.addEventListener('click', function(e){
-    console.log(e.target);
-    if(close === false){
-        let span = document.querySelector('span');
-        if(e.target !== span && e.target !== abrir){
-            link.style.width = '0%';
-            link.style.overflow = 'hidden';
-            close = true;
-            icono.style.opacity = '100';
-        }
-    }
-});
-
 
 icono.addEventListener('click', function(){
     apertura();
