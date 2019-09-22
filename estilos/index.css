@@ -15,7 +15,7 @@ header{
     width: 100%;
     height: 600px;
     background: linear-gradient(to bottom,
-    var(--color2),
+    rgba(88, 214, 141,.6),
     rgba(56,56,56,.6)),url("../img/menu.jpg");
     background-attachment: fixed;
     background-position: center; 
