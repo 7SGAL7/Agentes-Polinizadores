@@ -111,7 +111,7 @@ header{
 
 .bolitas{
     position: absolute;
-    background: rgba(250, 169, 6);
+    background: #FFB832;
     box-shadow: inset -1px -1px 5px 1px;
     border-radius: 50%;
     z-index: 1;
